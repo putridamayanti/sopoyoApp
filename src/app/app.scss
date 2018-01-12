@@ -1,0 +1,56 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+// -------------------------------- //
+//              Variable            //
+// -------------------------------- //
+$font : 'Roboto', sans-serif;
+
+// -------------------------------- //
+//              General             //
+// -------------------------------- //
+body {
+  font-family: $font;
+}
+// --- Margin & Padding --- //
+.mt20   { margin-top: 20px }
+.mt40   { margin-top: 40px }
+.mt60   { margin-top: 60px }
+.mt80   { margin-top: 80px }
+.mt120  { margin-top: 120px }
+
+.mb0    { margin-bottom: 0 }
+// --- Text --- //
+.txt-white { color: map_get($colors, white) }
+.center { text-align: center; }
+
+// --- Background --- //
+.bg-front { background: url("../assets/imgs/bg-home.jpg"); }
+
+// --- Button --- //
+// .btn-round    { border-radius: 50px; }
+
+
+// -------------------------------- //
+//              Style               //
+// -------------------------------- //
+
+// ---- General ---- //
+.content { padding: 0 20px 0 20px }
+.input-form { width: 100%; padding: 12px; border-radius: 5px; border: none; margin-bottom: 15px; }
+
+.auth-form { border-radius: 50px; padding-left: 20px }
